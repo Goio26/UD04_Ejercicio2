@@ -35,9 +35,16 @@ public class MainActivity extends AppCompatActivity {
         };
 
 
+
+
         AdaptadorWeb aw=new AdaptadorWeb(this,webs);
+
         lista=findViewById(R.id.listaWebs);
         lista.setAdapter(aw);
+
+        View header=getLayoutInflater().inflate(R.layout.list_header,null);
+        lista.addHeaderView(header);
+
 
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

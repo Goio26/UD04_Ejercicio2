@@ -17,13 +17,6 @@
     </ListView>
 
 
-<!--    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CABECERA"
-        android:background="#ff0093ff"
-        android:textStyle="bold"
-        android:gravity="center"
-        />  -->
+
 
 </LinearLayout>
